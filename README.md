@@ -6,6 +6,8 @@ CLAUDE.md - this provides the steps for the agent to follow for building with [C
 
 [Space Devs](https://thespacedevs.com/llapi) Open API spec and [aviation weather](https://aviationweather.gov/data/api/) Open API spec - these open api specs can be used with the prompts below. You do not have to use these and can replace with your own prompts and specs.  Providing API endpoints or json response examples is also supported by the GraphOS MCP tools
 
+mcp-config.yaml - when you run prompt 4 below, it will use this file as your base mcp configuration.  To see all configuration options, please check out the [mcp config docs](https://www.apollographql.com/docs/apollo-mcp-server/config-file) You can modify the prompt or claude.md file further if you would like claude code to generate this file for you.
+
 ## Add GraphOS MCP Tools
 
 [GraphOS MCP Tools](https://www.apollographql.com/docs/graphos/platform/graphos-mcp-tools) provide your agent with tools to rapidly generate graphs and orchestrate APIs. To add these tools to Claude Code, run the following command:
