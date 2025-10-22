@@ -19,9 +19,9 @@ Restart your Claude code session before continuing
 The prompts below are similar to what was shown in the live demos.  Please adjust for your needs and add more specificity as required.
 
 1. Prompt:  I just started a new graph with Apollo, I’m providing the endpoint for the Space Devs Launch Library at LaunchLibrary API v2.3.0 (v2.3.0).json in the local folder.
-I want to get the details with fields for launches.
+I want to get the only the important details with fields for launches. Pad information must be included.
 2. Ask Claude to run the project locally for you, then test your queries
-3. Prompt: Add weather on the pad type. use the aviationweather.yaml file in this workspace
+3. Prompt: add weather on the pad type. use the aviationweather.yaml file in this workspace. You will have to create a bounding box from the lat and long values on the pad type by using the `$this.longitude->sub(1)` example syntax to adjust the values and handle null values for any pads located outside the US.
 4. Prompt: can you start this project locally with an Apollo MCP Server?
 
 ## Get in touch
