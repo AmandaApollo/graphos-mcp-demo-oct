@@ -1,0 +1,17 @@
+introspection:
+  introspect:
+    enabled: true
+    minify: true
+  search:
+    enabled: true
+    minify: true
+  validate:
+    enabled: true
+    minify: true
+  execute:
+    enabled: false
+    minify: true
+operations:
+  source: local
+  paths:
+    - ./tools
