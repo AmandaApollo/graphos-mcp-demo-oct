@@ -1,5 +1,5 @@
-# graphos-mcp-demo-oct
-This repo contains code demoed at mcp server builder meetups in Oct 2025.
+# October MCP Builder Series Demo Code
+This repo contains code demoed at mcp server builder meetups in Oct 2025 in SF and NYC.
 
 It contains the following files:
 CLAUDE.md - this provides the steps for the agent to follow for buildign with REST APIs and GraphOS MCP tools.  Agents are constantly evolving and may behave differently when provided markdown instructions.  This md file can be modified for your use case and agent behavior. 
