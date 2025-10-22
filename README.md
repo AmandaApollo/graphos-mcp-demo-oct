@@ -1,7 +1,7 @@
 # October MCP Builder Series Demo Code
 This repo contains code demoed at mcp server builder meetups in Oct 2025 in SF and NYC. The demo you saw may have included the [flightradar API](https://fr24api.flightradar24.com/).  This API requires a paid subscription to use so has been replaced with a free API that is similar in nature.
 
-It contains the following files:
+Explanation of files:
 CLAUDE.md - this provides the steps for the agent to follow for building with [Connectors](https://www.apollographql.com/docs/graphos/connectors) for REST APIs and GraphOS MCP tools.  Agents are constantly evolving and may behave differently when provided markdown instructions.  This md file can be modified for your use case and agent behavior. 
 
 [Space Devs](https://thespacedevs.com/llapi) Open API spec and [aviation weather](https://aviationweather.gov/data/api/) Open API spec - these open api specs can be used with the prompts below. You do not have to use these and can replace with your own prompts and specs.  Providing API endpoints or json response examples is also supported by the GraphOS MCP tools
