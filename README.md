@@ -2,6 +2,9 @@
 This repo contains code demoed at mcp server builder meetups in Oct 2025
 
 ## Add GraphOS MCP Tools
+
+GraphOS MCP Tools provide your agent with tools to rapidly generate graphs and orchestrate APIs. To add these tools to Claude Code, run the following command:
+
 `claude mcp add --transport http graphos-mcp-tools https://mcp.apollographql.com`
 
 Restart your Claude code session before continuing
