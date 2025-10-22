@@ -26,4 +26,8 @@ I want to get the details with fields for launches.
 
 ## Get in touch
 
-If you have any questions or feedback, please reach out to [Amanda Martin](https://www.linkedin.com/in/amandamartin-dev) or Michael Watson
+Subscribe to our [Luma Calendar](https://luma.com/mcp-server?k=c&utm_source=github) to keep up with all our in person and virtual MCP Builder Events
+
+YouTube playlist for demo sessions showing the above flow from October - Coming Soon
+
+If you have any questions or feedback, please open an issue on this repo or reach out to [Amanda Martin](https://www.linkedin.com/in/amandamartin-dev) or Michael Watson
