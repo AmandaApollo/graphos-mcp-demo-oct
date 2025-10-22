@@ -8,7 +8,7 @@ CLAUDE.md - this provides the steps for the agent to follow for buildign with RE
 
 ## Add GraphOS MCP Tools
 
-GraphOS MCP Tools provide your agent with tools to rapidly generate graphs and orchestrate APIs. To add these tools to Claude Code, run the following command:
+[GraphOS MCP Tools](https://www.apollographql.com/docs/graphos/platform/graphos-mcp-tools) provide your agent with tools to rapidly generate graphs and orchestrate APIs. To add these tools to Claude Code, run the following command:
 
 `claude mcp add --transport http graphos-mcp-tools https://mcp.apollographql.com`
 
