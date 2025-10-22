@@ -70,3 +70,5 @@ You must review the implementation from step 3 with the following guidelines:
 Your goal for this step is to review and refine your work to improve it and you can compose the supergraph using `rover` without any errors.
 
 If the user asks you to run the project locally, use `rover dev --supergraph-config supergraph.yaml` (`rover connector run` is intended for testing and automation.).
+
+If the user asks you to run the project locally with apollo mcp server, use `rover dev --supergraph-config supergraph.yaml --mcp mcp-config.yaml`
