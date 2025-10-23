@@ -5,6 +5,7 @@ Explanation of files:
 CLAUDE.md - this provides the steps for the agent to follow for building with [Connectors](https://www.apollographql.com/docs/graphos/connectors) for REST APIs and GraphOS MCP tools.  Agents are constantly evolving and may behave differently when provided markdown instructions.  This md file can be modified for your use case and agent behavior. 
 
 [Space Devs](https://thespacedevs.com/llapi) Open API spec
+
 [aviation weather](https://aviationweather.gov/data/api/) Open API spec - use this only if you are utilizing the flight radar API. This API only returns US based locations and does not have full coverage for the space devs data.  For spacedevs, open weather API is a better choice.
 
 mcp-config.yaml - when you run prompt 4 below, it will use this file as your base mcp configuration.  To see all configuration options, please check out the [mcp config docs](https://www.apollographql.com/docs/apollo-mcp-server/config-file) You can modify the prompt or claude.md file further if you would like claude code to generate this file for you.
