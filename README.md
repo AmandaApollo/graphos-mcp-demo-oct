@@ -29,6 +29,9 @@ I want to get the only the important details with fields for launches. Pad infor
 2. Ask Claude to run the project locally for you, then test your queries
 3. Prompt:  Add a field-level conector on Pad.weather. use the open weather endpoint and the OPEN_WEATHER_KEY in the env file to research and understand this API https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key} 
 4. Prompt: can you start this project locally with an Apollo MCP Server?
+5. In a new terminal in your IDE, you can run the MCP inspector to see your tools live `npx @modelcontextprotocol/inspector`
+6. To add a new tool, create a graphQL operation in the localhost sandbox you use while running rover then copy/paste this to a new toolName.graphql file in the tools folder.
+7. In your MCP inspector if you click clear/list tools, you will see your new tool available to use
 
 ## Get in touch
 
